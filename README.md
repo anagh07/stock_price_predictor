@@ -12,6 +12,8 @@ In this project, we are going to build a model to predict the stock prices of 25
 # Dataset Description
 We are going to use 2 datasets: [daily closing prices of NASDAQ & NYSE stocks since 1980](https://www.kaggle.com/qks1lver/nasdaq-and-nyse-stocks-histories), and financial statements from [SEC filings between 2010 and 2020](https://www.kaggle.com/finnhub/reported-financials). We will only consider the years 2010-2020. The data on years between 2010-2019 will be used to train our algorithms. The data for the year 2020 will be used as our test data. Our predictions will target the first day of each quarter during the year 2020. The datasets are taken from Kaggle.com, are already cleansed and in consumable CSV and JSON formats (respectively). No cleaning will be done. A parser will be built to grab fields-of-interest from the datasets into our solution.
 
+From the datasets, we will be using **daily-closing price** and **financial statement data** to train our models.
+
 # Algorithms
 A regression supervised learning model will be used to predict the closing price. The regression analysis will be implemented using Long Short-Term Memory (LSTM) and the Random Forest (RF) algorithms.
 
