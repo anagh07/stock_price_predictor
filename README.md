@@ -24,4 +24,3 @@ The two models trained using the selected algorithms will be evaluated and compa
 - Root mean squared error on prediction (RMSE)
 - Normalized RMSE
 
-A RMSE value close to zero would indicate a very good fit to the data. The model with lower RMSE value will be considered the better algorithm for this use case.
